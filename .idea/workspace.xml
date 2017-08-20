@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2950039d-a003-42e5-a720-e331f248390c" name="Default" comment="" />
+    <list default="true" id="2950039d-a003-42e5-a720-e331f248390c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css-responsive-website/index.html" afterPath="$PROJECT_DIR$/css-responsive-website/index.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +24,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css-responsive-website/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="153" column="26" lean-forward="true" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
+                <state relative-caret-position="959">
+                  <caret line="186" column="13" lean-forward="true" selection-start-line="186" selection-start-column="13" selection-end-line="186" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -36,8 +38,8 @@
           <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css-responsive-website/styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="159">
-                  <caret line="326" column="23" lean-forward="false" selection-start-line="326" selection-start-column="23" selection-end-line="326" selection-end-column="23" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -61,8 +63,8 @@
       <find>icon</find>
       <find>left-side</find>
       <find>div.box</find>
-      <find>haza</find>
       <find>sh</find>
+      <find>haza</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -81,8 +83,8 @@
         <option value="$PROJECT_DIR$/css-section/main.css" />
         <option value="$PROJECT_DIR$/css-responsive-website/html.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/css-responsive-website/index.html" />
         <option value="$PROJECT_DIR$/css-responsive-website/styles.css" />
+        <option value="$PROJECT_DIR$/css-responsive-website/index.html" />
       </list>
     </option>
   </component>
@@ -185,12 +187,12 @@
       <workItem from="1503225017143" duration="180000" />
       <workItem from="1503225473973" duration="179000" />
       <workItem from="1503225665065" duration="4849000" />
-      <workItem from="1503239580617" duration="17632000" />
+      <workItem from="1503239580617" duration="18555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41596000" />
+    <option name="totallyTimeSpent" value="42519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1653" y="24" width="1254" height="1416" extended-state="4" />
@@ -328,16 +330,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css-responsive-website/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="326" column="23" lean-forward="false" selection-start-line="326" selection-start-column="23" selection-end-line="326" selection-end-column="23" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css-responsive-website/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="153" column="26" lean-forward="true" selection-start-line="153" selection-start-column="26" selection-end-line="153" selection-end-column="26" />
+        <state relative-caret-position="959">
+          <caret line="186" column="13" lean-forward="true" selection-start-line="186" selection-start-column="13" selection-end-line="186" selection-end-column="13" />
           <folding />
         </state>
       </provider>

@@ -22,6 +22,26 @@ p {
     font-family: "Roboto Condensed", sans-serif, serif;
 }
 
+article p {
+    font-size: 1.3rem;
+    padding: 10px;
+    line-height: 1.5rem;
+}
+
+.bottom-img {
+    display: block;
+    margin: auto;
+    padding-left: 6%;
+}
+
+.bottom-img img {
+    max-width: 90%;
+    max-height: 90%; /*shad, bgcol, boxcol, opac*/
+    box-shadow: 0 0 5px 7px rgba(0, 0, 0, .33),
+        /*hor vert blur spread*/
+    0 0 20px 30px rgba(0, 0, 0, .5);
+}
+
 .container {
     width: 100%;
     display: block;
@@ -42,21 +62,61 @@ p {
     content: '';
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%; height: 100%}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+    height: 100%
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
 
 * {
     box-sizing: border-box;
+}
+
+hr {
+    margin: 15pt 0;
 }
 
 /* custom styles */
@@ -70,7 +130,7 @@ div.box {
     margin: 10px;
     padding: 5px;
     border-radius: 7px;
-    box-shadow: 0 0 0 1px rgba(0,0,0, .33)
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .33)
     /*0 2px 3px 0 rgba(0,0,0, 1);*/
 }
 
@@ -203,6 +263,29 @@ ul.topnav li.dropdown-icon {
     display: none;
 }
 
+/* footer */
+footer.footsy {
+    background-color: #FF0004;
+    padding-left: 10%;
+}
+
+footer.footsy h1 {
+    color: #FFB70D;
+    font-size: 2rem;
+}
+
+footer.footsy ul {
+    list-style: none;
+    color: #FFB70D;
+    text-align: left;
+    padding: 0;
+}
+
+footer.footsy ul li {
+    font-size: 1.2rem;
+    line-height: 1.33rem;
+}
+
 /* mobile */
 @media screen and (max-width: 680px) {
     ul.topnav li:not(:nth-child(1)) {
@@ -234,9 +317,14 @@ ul.topnav li.dropdown-icon {
         text-align: left;
     }
 
-    .col-6, .col-4 {
+    .col-6, .col-4, .col-7, .col-5 {
         min-width: 100%;
         margin: 0;
+    }
+
+    div.footer-col {
+        width: 50%;
+        display: block;
     }
 
     .box {

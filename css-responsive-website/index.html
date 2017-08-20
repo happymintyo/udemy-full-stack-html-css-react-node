@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive CSS</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav>
+  <ul class="topnav" id="dropdown-click">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#new">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#about">About</a></li>
+    <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+    <li class="topnav-right"><a href="#signin">Sign In</a></li>
+    <li class="dropdown-icon"><a href="javascrip:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+  </ul>
+</nav>
+
+<div class="container" id="section1-gradient">
+  <div class="row">
+    <div class="col-6">
+      <div class="left-side-col">
+        <h1 class="large">Crazy Mario Radness</h1>
+        <h1 class="large">Made for WixTicles</h1>
+      </div>
+      <form>
+        <div class="left-side-col">
+          <h2>Username</h2>
+          <input class="inputbox" type="text" name="username" placeholder="e.g. Mintyo">
+          <h2>Password</h2>
+          <input class="inputbox" type="text" name="password" placeholder="e.g. &quot;asdf1234!&quot;">
+        </div>
+      </form>
+    </div>
+    <div class="col-6">
+      <div class="right-side-col">
+        <div class="video-container">
+          <iframe
+              width="560" height="315" src="https://www.youtube.com/embed/1qYr55oLrGk" frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<header>
+  <h1 class="section-2-header">The Hazards of Super Expert</h1>
+</header>
+<div class="container">
+  <div class="row">
+    <div class="col-4">
+      <div class="box">
+        <div class="icon">
+          <img src="paypal.png">
+        </div>
+        <label>Give me Money</label>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua.</p>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="box">
+        <div class="icon">
+          <img src="wixtoise.jpg">
+        </div>
+        <label>Join me on Twitch</label>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua.</p>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="box">
+        <div class="icon">
+          <img src="mario.png">
+        </div>
+        <label>Play Mario with me</label>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua.</p>
+      </div>
+    </div>
+  </div>
+
+
+<script>
+    function dropdownMenu() {
+        var id = document.getElementById("dropdown-click");
+        if (id.className === "topnav") {
+            id.className += " responsive";
+            /* change "topnav" to "topnav responsive"*/
+        } else {
+            id.className = "topnav";
+        }
+    }
+</script>
+
+</body>
+</html>

@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Responsive CSS</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Raleway|Roboto+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
 <nav>
   <ul class="topnav" id="dropdown-click">
     <li><a href="#home">Home</a></li>
@@ -40,7 +40,7 @@
         <div class="video-container">
           <iframe
               width="560" height="315" src="https://www.youtube.com/embed/1qYr55oLrGk" frameborder="0" allowfullscreen>
-            </iframe>
+          </iframe>
         </div>
       </div>
     </div>
@@ -84,18 +84,31 @@
     </div>
   </div>
 
+  <div class="row">
+    <div class="col-12">
+      <div>
+        <button class="watch-button">
+          <a href="http://www.twitch.tv/witwix" target="_blank">
+            <img src="Twitch-Icon.png">
+          </a>
+          <a href="http://www.twitch.tv/witwix" target="_blank" class="button-text">
+            Watch me live!
+          </a>
+        </button>
+      </div>
+    </div>
+  </div>
 
-<script>
-    function dropdownMenu() {
-        var id = document.getElementById("dropdown-click");
-        if (id.className === "topnav") {
-            id.className += " responsive";
-            /* change "topnav" to "topnav responsive"*/
-        } else {
-            id.className = "topnav";
-        }
-    }
-</script>
-
+  <script>
+      function dropdownMenu() {
+          var id = document.getElementById("dropdown-click");
+          if (id.className === "topnav") {
+              id.className += " responsive";
+              /* change "topnav" to "topnav responsive"*/
+          } else {
+              id.className = "topnav";
+          }
+      }
+  </script>
 </body>
 </html>

@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2950039d-a003-42e5-a720-e331f248390c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap4/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap4/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/calc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/l2code.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/pyramid4ever.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap4/assets/bird_logo.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap4/assets/bird_logo_trans.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap4/assets/gaming_unicorn.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bootstrap4/assets/lion_logo.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap4/index.html" afterPath="$PROJECT_DIR$/bootstrap4/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bootstrap4/style.css" afterPath="$PROJECT_DIR$/bootstrap4/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,8 +33,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bootstrap4/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="330">
-                  <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+                <state relative-caret-position="242">
+                  <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
                   <folding />
                 </state>
               </provider>
@@ -54,21 +54,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bootstrap4/css/bootstrap.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-721">
-                  <caret line="6658" column="3" lean-forward="true" selection-start-line="6658" selection-start-column="3" selection-end-line="6658" selection-end-column="3" />
+                <state relative-caret-position="137">
+                  <caret line="2242" column="15" lean-forward="false" selection-start-line="2242" selection-start-column="15" selection-end-line="2242" selection-end-column="15" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/bootstrap4/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="127">
+                  <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -92,10 +92,10 @@
       <find>min-wi</find>
       <find>icon</find>
       <find>left-side</find>
-      <find>div.box</find>
       <find>sh</find>
       <find>col-4</find>
       <find>haza</find>
+      <find>div.box</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -121,9 +121,10 @@
         <option value="$PROJECT_DIR$/javascript/index.html" />
         <option value="$PROJECT_DIR$/javascript/calc.js" />
         <option value="$PROJECT_DIR$/bootstrap-4.0.0-alpha.6-dist/index.html" />
-        <option value="$PROJECT_DIR$/bootstrap4/style.css" />
         <option value="$PROJECT_DIR$/bootstrap4/awdawd.html" />
+        <option value="$PROJECT_DIR$/bootstrap4/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/bootstrap4/index.html" />
+        <option value="$PROJECT_DIR$/bootstrap4/style.css" />
       </list>
     </option>
   </component>
@@ -181,6 +182,12 @@
               <item name="udemy-full-stack-html-css-react-node" type="b2602c69:ProjectViewProjectNode" />
               <item name="udemy-full-stack-html-css-react-node" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="bootstrap4" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="udemy-full-stack-html-css-react-node" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udemy-full-stack-html-css-react-node" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bootstrap4" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -208,6 +215,7 @@
       <recent name="$PROJECT_DIR$/HTML Section" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/bootstrap4/assets" />
       <recent name="$PROJECT_DIR$/css-responsive-website" />
       <recent name="$PROJECT_DIR$/css-section" />
     </key>
@@ -239,12 +247,12 @@
       <workItem from="1503225017143" duration="180000" />
       <workItem from="1503225473973" duration="179000" />
       <workItem from="1503225665065" duration="4849000" />
-      <workItem from="1503239580617" duration="36314000" />
+      <workItem from="1503239580617" duration="41912000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60278000" />
+    <option name="totallyTimeSpent" value="65876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1653" y="24" width="1254" height="1416" extended-state="4" />
@@ -436,22 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap4/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap4/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="6" lean-forward="false" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap4/css/bootstrap-grid.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2816">
@@ -460,10 +452,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap4/assets/gaming_unicorn.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bootstrap4/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-721">
-          <caret line="6658" column="3" lean-forward="true" selection-start-line="6658" selection-start-column="3" selection-end-line="6658" selection-end-column="3" />
+        <state relative-caret-position="137">
+          <caret line="2242" column="15" lean-forward="false" selection-start-line="2242" selection-start-column="15" selection-end-line="2242" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap4/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="5" column="29444" lean-forward="true" selection-start-line="5" selection-start-column="29444" selection-end-line="5" selection-end-column="29444" />
+          <folding>
+            <element signature="e#33059#33306#2" expanded="true" />
+            <element signature="e#33668#33988#2" expanded="true" />
+            <element signature="e#34344#34633#2" expanded="true" />
+            <element signature="e#55708#55908#2" expanded="true" />
+            <element signature="e#56030#56179#2" expanded="true" />
+            <element signature="e#56325#56471#2" expanded="true" />
+            <element signature="e#57025#57188#1" expanded="true" />
+            <element signature="e#68149#68392#2" expanded="true" />
+            <element signature="e#69238#69487#2" expanded="true" />
+            <element signature="e#96534#96721#2" expanded="true" />
+            <element signature="e#96767#96956#2" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap4/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap4/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="29" selection-end-line="46" selection-end-column="29" />
           <folding />
         </state>
       </provider>

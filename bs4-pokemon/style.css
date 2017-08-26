@@ -1,0 +1,23 @@
+.jumbotron {
+    background-color: #fff;
+    text-align: center;
+}
+
+#mainCarousel {
+    background-color: #2f2f2f;
+}
+
+#mainCarousel .carousel-inner img {
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.carousel-caption h3 {
+    text-shadow: 0 0 2px #000;
+}
+
+.carousel-caption p {
+    text-shadow: 0 0 2px #000;
+}
